@@ -34,7 +34,7 @@ const Hero = () => {
             className='object-contain select-none'
           />
         </div>
-        <div className='pentagon' />
+        <div className='hero__image-overlay' />
       </div>
     </div>
   )
