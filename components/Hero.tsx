@@ -26,7 +26,7 @@ const Hero = () => {
         />
       </div>
       <div className='hero__image-container'>
-        <div className='hero__image select-none'>
+        <div className='hero__image select-none animation'>
           <Image
             src='/hero.webp'
             alt='hero'
