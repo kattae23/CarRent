@@ -55,6 +55,19 @@ export const yearsOfProduction = [
   { title: '2023', value: '2023' }
 ]
 
+export const colors = [
+  { title: 'Black', value: '#000000' },
+  { title: 'Red', value: '#FF0000' },
+  { title: 'Orange', value: '#FFA500' },
+  { title: 'Yellow', value: '#FFFF00' },
+  { title: 'Green', value: '#00FF00' },
+  { title: 'Blue', value: '#0000FF' },
+  { title: 'Purple', value: '#800080' },
+  { title: 'Pink', value: '#FFC0CB' },
+  { title: 'Deep Pink', value: '#FF1493' },
+  { title: 'Dark Turquoise', value: '#00CED1' }
+]
+
 export const fuels = [
   {
     title: 'Fuel',

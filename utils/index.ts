@@ -3,8 +3,8 @@ import { CarProps, FilterProps } from '@/types'
 export async function fetchCars (filters: FilterProps) {
   const { manufacturer, year, model, limit, fuel } = filters
   const headers = {
-    'X-RapidAPI-Key': process.env.RAPID_API_KEY as string,
-    'X-RapidAPI-Host': process.env.RAPID_API_HOST as string
+    'X-RapidAPI-Key': '95a9a52335mshe0059f0d217b631p18a736jsnd1399f1cfc5b',
+    'X-RapidAPI-Host': 'cars-by-api-ninjas.p.rapidapi.com'
   }
 
   const response = await fetch(`https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?make=${manufacturer}&year=${year}&model=${model}&limit=${limit}&fuel_type=${fuel}`, {
@@ -42,6 +42,7 @@ export const generateCarImageUrl = (car: CarProps, angle?: string) => {
   url.searchParams.append('zoomType', 'fullscreen')
   url.searchParams.append('modelYear', `${year}`)
   url.searchParams.append('angle', `${angle}`)
+  url.searchParams.append('paintId', 'pspc0124')
 
   return `${url}`
 }

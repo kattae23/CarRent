@@ -18,7 +18,7 @@ export interface CarProps {
 export type CarState = CarProps[] & { message?: string };
 
 export interface SearchBarProps {
-  setManuFacturer: (manufacturer: string) => void;
+  setManufacturer: (manufacturer: string) => void;
   setModel: (model: string) => void;
 }
 
@@ -57,7 +57,7 @@ export interface OptionProps {
 
 export interface CustomFilterProps {
   options: OptionProps[];
-  setFilter: Dispatch<SetStateAction<number>> | Dispatch<SetStateAction<string>>
+  setFilter: Dispatch<SetStateAction<OptionProps['value']>> | Dispatch<SetStateAction<number>> | Dispatch<SetStateAction<string>>
 }
 
 export interface ShowMoreProps {

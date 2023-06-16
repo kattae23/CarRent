@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Rental Test Page (Next.js)
+
+Welcome to my Car Rental Test Page, built with Next.js! This project serves as a showcase of my web development skills for car rental platforms. 
+
+![page hero section](/public/showgit.png)
+![car catalogue section](/public/showgit2.png)
+![footer section](/public/showgit3.png)
+
+## Features
+
+- User-friendly interface
+- Seamless navigation
+- Sample selection of vehicles for rent
+- Intuitive reservation system
+- Transparent pricing
+
+## Technologies Used
+
+- Next.js
+- HTML
+- CSS
+- JavaScript
 
 ## Getting Started
 
-First, run the development server:
+To run this test page locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone this repository.
+2. Install the required dependencies using `npm install`.
+3. Start the development server with `npm run dev`.
+4. Open your browser and navigate to `http://localhost:3000`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Feel free to explore the functionality and experience the smooth user interface of this test page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Showcase
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Visit the live demo of this Car Rental Test Page at [car-rental-demo.com](https://www.car-rental-demo.com).
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
+For any inquiries or to discuss collaboration opportunities, feel free to reach out to me at [alfonzo.developer@gmail.com](mailto:alfonzo.developer@gmail.com).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting my portfolio project!

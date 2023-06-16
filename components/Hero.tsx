@@ -12,7 +12,7 @@ const Hero = () => {
     <div className='hero'>
       <div className='flex-1 pt-36 padding-x'>
         <h1 className='hero__title'>
-          Find, book, or rent a car - quickly and easily!
+          <span className='text-gradient primary'>Find, book, or rent a car</span>  <span className='text-gradient secondary'>- quickly and easily!</span>
         </h1>
 
         <p className='hero__subtitle'>
@@ -28,13 +28,13 @@ const Hero = () => {
       <div className='hero__image-container'>
         <div className='hero__image select-none'>
           <Image
-            src='/hero.png'
+            src='/hero.webp'
             alt='hero'
             fill
             className='object-contain select-none'
           />
         </div>
-        <div className='hero__image-overlay' />
+        <div className='pentagon' />
       </div>
     </div>
   )
