@@ -26,8 +26,8 @@ Welcome to my Car Rental Test Page, built with Next.js! This project serves as a
 To run this test page locally, follow these steps:
 
 1. Clone this repository.
-2. Install the required dependencies using `npm install`.
-3. Start the development server with `npm run dev`.
+2. Install the required dependencies using `pnpm install`.
+3. Start the development server with `pnpm run dev`.
 4. Open your browser and navigate to `http://localhost:3000`.
 
 Feel free to explore the functionality and experience the smooth user interface of this test page.
