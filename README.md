@@ -34,7 +34,7 @@ Feel free to explore the functionality and experience the smooth user interface 
 
 ## Showcase
 
-Visit the live demo of this Car Rental Test Page at [car-rental-demo.com](https://www.car-rental-demo.com).
+Visit the live demo of this Car Rental Test Page at [car-rent-olive.vercel.app](https://car-rent-olive.vercel.app).
 
 ## Contact
 
